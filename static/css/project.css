@@ -1,9 +1,9 @@
 /* Minimal academic layout, following the GoBA project page. */
 :root {
   --ink: #1e293b;
-  --body: #4b5563;
+  --body: #1e293b;
   --muted: #64748b;
-  --link: #3273dc;
+  --link: #2563eb;
   --line: #e2e8f0;
   --light: #f8fafc;
 }
@@ -15,7 +15,8 @@ body {
   color: var(--body);
   font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
-  line-height: 1.8;
+  font-weight: 400;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 a { color: var(--link); }
@@ -25,7 +26,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex]:focus-v
   outline-offset: 5px;
 }
 h1, h2, h3, h4 { color: var(--ink); line-height: 1.2; }
-h2 { margin: 0 0 30px; text-align: center; font-size: 32px; font-weight: 700; }
+h2 { margin: 0 0 30px; text-align: center; font-size: 32px; font-weight: 700; line-height: 1.125; }
 h3 { font-size: 24px; font-weight: 600; }
 p { margin: 0; }
 strong { color: var(--ink); font-weight: 600; }
@@ -38,8 +39,8 @@ strong { color: var(--ink); font-weight: 600; }
   margin: 0 auto;
   font-size: 48px;
   font-weight: 800;
-  line-height: 1.15;
-  letter-spacing: -1.2px;
+  line-height: 1.1;
+  letter-spacing: normal;
 }
 .publication-authors { display: flex; flex-wrap: wrap; justify-content: center; column-gap: 10px; row-gap: 4px; margin-top: 34px; font-size: 20px; font-weight: 500; color: var(--ink); }
 .publication-authors span { white-space: nowrap; }
@@ -68,12 +69,12 @@ strong { color: var(--ink); font-weight: 600; }
 .resource-button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; stroke-linecap: round; }
 .resource-button .filled-icon { fill: currentColor; stroke: none; }
 .abstract-section { background: var(--light); border-block: 1px solid var(--line); }
-.prose { font-size: 17px; line-height: 1.85; text-align: justify; }
+.prose { font-size: 1.1rem; line-height: 1.8; text-align: justify; }
 .prose p + p { margin-top: 16px; }
 .abstract-section .prose { color: var(--muted); }
 figure { margin: 0; }
 figure img { display: block; width: 100%; height: auto; }
-figcaption { margin-top: 20px; text-align: center; color: var(--body); font-size: 15px; line-height: 1.75; }
+figcaption { margin-top: 20px; text-align: center; color: var(--body); font-size: 16px; line-height: 1.5; }
 .method-figure { margin-top: 34px; }
 .method-note { margin-top: 20px; font-size: 14px; line-height: 1.75; color: var(--muted); text-align: left; }
 .section-description { max-width: 860px; margin: -6px auto 26px; text-align: center; font-size: 16px; }
@@ -124,7 +125,7 @@ td { color: var(--muted); }
 @media (max-width: 600px) {
   .page-width, .text-width { width: calc(100% - 36px); }
   .publication-header { padding: 42px 0 36px; }
-  .publication-header h1 { font-size: 30px; letter-spacing: -.6px; line-height: 1.2; }
+  .publication-header h1 { font-size: 32px; letter-spacing: normal; line-height: 1.2; }
   .publication-authors { font-size: 16px; margin-top: 26px; }
   .publication-affiliations { font-size: 16px; margin-top: 18px; }
   .publication-links { gap: 8px; margin-top: 22px; }
