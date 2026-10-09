@@ -10,6 +10,7 @@
       const media = card.querySelector('.video-stage');
       const video = document.createElement('video');
       video.controls = true;
+      video.muted = true;
       video.playsInline = true;
       video.preload = 'metadata';
       video.src = config.src;
@@ -24,5 +25,26 @@
       media.replaceChildren(video);
       if (config.caption) card.querySelector('.video-caption').textContent = config.caption;
     });
+  });
+})();
+
+// Copy the displayed citation, with selectable text if clipboard access is unavailable.
+(() => {
+  const button = document.getElementById('copy-bibtex');
+  const code = document.getElementById('bibtex-code');
+  const status = document.getElementById('copy-status');
+  if (!button || !code || !status) return;
+  button.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(code.textContent.trim());
+      status.textContent = 'Citation copied.';
+    } catch {
+      const range = document.createRange();
+      range.selectNodeContents(code);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      status.textContent = 'Citation selected. Press Ctrl+C or ⌘C to copy.';
+    }
   });
 })();
