@@ -3,13 +3,11 @@ window.TMT_DEMOS = {
   "badvla": {
     "clean": {
       "src": "static/videos/tmt-task6/badvla-benign.mp4",
-      "poster": "static/images/video-posters/tmt-task6/badvla-benign.png",
-      "caption": "Original policy · benign input · 10.8 s"
+      "poster": "static/images/video-posters/tmt-task6/badvla-benign.png"
     },
     "triggered": {
       "src": "static/videos/tmt-task6/badvla-triggered.mp4",
-      "poster": "static/images/video-posters/tmt-task6/badvla-triggered.png",
-      "caption": "Original policy · triggered input · 26 s"
+      "poster": "static/images/video-posters/tmt-task6/badvla-triggered.png"
     },
     "detection": {
       "src": "static/videos/tmt-task6/badvla-monitoring-light.mp4?v=f67e3449",
@@ -19,13 +17,11 @@ window.TMT_DEMOS = {
   "goba": {
     "clean": {
       "src": "static/videos/tmt-task6/goba-benign.mp4",
-      "poster": "static/images/video-posters/tmt-task6/goba-benign.png",
-      "caption": "Original policy · benign input · 11.15 s"
+      "poster": "static/images/video-posters/tmt-task6/goba-benign.png"
     },
     "triggered": {
       "src": "static/videos/tmt-task6/goba-triggered.mp4",
-      "poster": "static/images/video-posters/tmt-task6/goba-triggered.png",
-      "caption": "Original policy · triggered input · 6 s"
+      "poster": "static/images/video-posters/tmt-task6/goba-triggered.png"
     },
     "detection": {
       "src": "static/videos/tmt-task6/goba-monitoring-light.mp4?v=c527a192",
@@ -35,13 +31,11 @@ window.TMT_DEMOS = {
   "dropvla": {
     "clean": {
       "src": "static/videos/tmt-task6/dropvla-benign.mp4",
-      "poster": "static/images/video-posters/tmt-task6/dropvla-benign.png",
-      "caption": "Original policy · benign input · 10.5 s"
+      "poster": "static/images/video-posters/tmt-task6/dropvla-benign.png"
     },
     "triggered": {
       "src": "static/videos/tmt-task6/dropvla-triggered.mp4",
-      "poster": "static/images/video-posters/tmt-task6/dropvla-triggered.png",
-      "caption": "Original policy · triggered input · 26 s"
+      "poster": "static/images/video-posters/tmt-task6/dropvla-triggered.png"
     },
     "detection": {
       "src": "static/videos/tmt-task6/dropvla-monitoring-light.mp4?v=fc73923b",
@@ -51,13 +45,11 @@ window.TMT_DEMOS = {
   "badvla-unseen": {
     "clean": {
       "src": "static/videos/tmt-unseen/badvla-benign.mp4",
-      "poster": "static/images/video-posters/tmt-unseen/badvla-benign.png",
-      "caption": "Original policy · benign input · 10.8 s"
+      "poster": "static/images/video-posters/tmt-unseen/badvla-benign.png"
     },
     "triggered": {
       "src": "static/videos/tmt-unseen/badvla-triggered.mp4",
-      "poster": "static/images/video-posters/tmt-unseen/badvla-triggered.png",
-      "caption": "Original policy · triggered input · 26 s"
+      "poster": "static/images/video-posters/tmt-unseen/badvla-triggered.png"
     },
     "detection": {
       "src": "static/videos/tmt-unseen/badvla-monitoring-light.mp4?v=b4e81596",
@@ -67,13 +59,11 @@ window.TMT_DEMOS = {
   "goba-unseen": {
     "clean": {
       "src": "static/videos/tmt-unseen/goba-benign.mp4",
-      "poster": "static/images/video-posters/tmt-unseen/goba-benign.png",
-      "caption": "Original policy · benign input · 10.5 s"
+      "poster": "static/images/video-posters/tmt-unseen/goba-benign.png"
     },
     "triggered": {
       "src": "static/videos/tmt-unseen/goba-triggered.mp4",
-      "poster": "static/images/video-posters/tmt-unseen/goba-triggered.png",
-      "caption": "Original policy · triggered input · 5.8 s"
+      "poster": "static/images/video-posters/tmt-unseen/goba-triggered.png"
     },
     "detection": {
       "src": "static/videos/tmt-unseen/goba-monitoring-light.mp4?v=4a1cf161",
@@ -83,13 +73,11 @@ window.TMT_DEMOS = {
   "dropvla-unseen": {
     "clean": {
       "src": "static/videos/tmt-unseen/dropvla-benign.mp4",
-      "poster": "static/images/video-posters/tmt-unseen/dropvla-benign.png",
-      "caption": "Original policy · benign input · 10.7 s"
+      "poster": "static/images/video-posters/tmt-unseen/dropvla-benign.png"
     },
     "triggered": {
       "src": "static/videos/tmt-unseen/dropvla-triggered.mp4",
-      "poster": "static/images/video-posters/tmt-unseen/dropvla-triggered.png",
-      "caption": "Original policy · triggered input · 26 s"
+      "poster": "static/images/video-posters/tmt-unseen/dropvla-triggered.png"
     },
     "detection": {
       "src": "static/videos/tmt-unseen/dropvla-monitoring-light.mp4?v=6317da3c",
