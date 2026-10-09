@@ -103,13 +103,14 @@ thead { border-top: 2px solid #475569; border-bottom: 1px solid #94a3b8; }
 th { font-weight: 600; color: var(--ink); }
 tbody tr:last-child th, tbody tr:last-child td { border-bottom: 2px solid #475569; }
 td { color: var(--muted); }
-.full-comparison { max-width: none; }
-.full-comparison table { min-width: 1020px; font-size: 13px; font-variant-numeric: tabular-nums; }
-.full-comparison th, .full-comparison td { padding: 10px 8px; white-space: nowrap; font-size: 13px; }
+#evaluation .page-width { max-width: 900px; }
+.full-comparison { max-width: 900px; margin-top: 22px; }
+.full-comparison table { min-width: 860px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.full-comparison th, .full-comparison td { padding: 6px 6px; white-space: nowrap; font-size: 13px; }
 .full-comparison thead th { background: #fff; }
-.full-comparison thead th[rowspan], .full-comparison tbody th[scope="row"] { position: sticky; left: 0; z-index: 1; min-width: 125px; text-align: left; background: #fff; }
+.full-comparison thead th[rowspan], .full-comparison tbody th[scope="row"] { position: sticky; left: 0; z-index: 1; min-width: 104px; text-align: left; background: #fff; }
 .full-comparison thead th[colspan], .full-comparison tbody td:nth-child(6), .full-comparison tbody td:nth-child(10) { border-left: 1px solid var(--line); }
-.full-comparison .method-group th { padding: 7px 10px; background: #f3f4f6; text-align: left; font-style: italic; font-weight: 400; }
+.full-comparison .method-group th { padding: 4px 8px; background: #f3f4f6; text-align: left; font-style: italic; font-weight: 400; }
 .full-comparison .tmt-row th, .full-comparison .tmt-row td { background: #f8fafc; }
 .full-comparison .tmt-row th { font-weight: 700; }
 .full-comparison strong { font-weight: 700; }
