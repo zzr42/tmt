@@ -10,8 +10,8 @@ window.TMT_DEMOS = {
       "poster": "static/images/video-posters/tmt-task6/badvla-triggered.png"
     },
     "detection": {
-      "src": "static/videos/tmt-task6/badvla-monitoring-light.mp4?v=f67e3449",
-      "poster": "static/images/video-posters/tmt-task6/badvla-monitoring-light.png?v=dbf7dd76"
+      "src": "static/videos/tmt-task6/badvla-monitoring-light.mp4?v=04ca1416",
+      "poster": "static/images/video-posters/tmt-task6/badvla-monitoring-light.png?v=cd63999c"
     }
   },
   "goba": {
@@ -24,8 +24,8 @@ window.TMT_DEMOS = {
       "poster": "static/images/video-posters/tmt-task6/goba-triggered.png"
     },
     "detection": {
-      "src": "static/videos/tmt-task6/goba-monitoring-light.mp4?v=c527a192",
-      "poster": "static/images/video-posters/tmt-task6/goba-monitoring-light.png?v=7892ac53"
+      "src": "static/videos/tmt-task6/goba-monitoring-light.mp4?v=5bd3b8d6",
+      "poster": "static/images/video-posters/tmt-task6/goba-monitoring-light.png?v=c0e98792"
     }
   },
   "dropvla": {
@@ -38,8 +38,8 @@ window.TMT_DEMOS = {
       "poster": "static/images/video-posters/tmt-task6/dropvla-triggered.png"
     },
     "detection": {
-      "src": "static/videos/tmt-task6/dropvla-monitoring-light.mp4?v=fc73923b",
-      "poster": "static/images/video-posters/tmt-task6/dropvla-monitoring-light.png?v=9be747c1"
+      "src": "static/videos/tmt-task6/dropvla-monitoring-light.mp4?v=c54b1d77",
+      "poster": "static/images/video-posters/tmt-task6/dropvla-monitoring-light.png?v=a852f67a"
     }
   },
   "badvla-unseen": {
@@ -52,8 +52,8 @@ window.TMT_DEMOS = {
       "poster": "static/images/video-posters/tmt-unseen/badvla-triggered.png"
     },
     "detection": {
-      "src": "static/videos/tmt-unseen/badvla-monitoring-light.mp4?v=b4e81596",
-      "poster": "static/images/video-posters/tmt-unseen/badvla-monitoring-light.png?v=1d1e4c23"
+      "src": "static/videos/tmt-unseen/badvla-monitoring-light.mp4?v=8c3ab477",
+      "poster": "static/images/video-posters/tmt-unseen/badvla-monitoring-light.png?v=62686ae7"
     }
   },
   "goba-unseen": {
@@ -66,8 +66,8 @@ window.TMT_DEMOS = {
       "poster": "static/images/video-posters/tmt-unseen/goba-triggered.png"
     },
     "detection": {
-      "src": "static/videos/tmt-unseen/goba-monitoring-light.mp4?v=4a1cf161",
-      "poster": "static/images/video-posters/tmt-unseen/goba-monitoring-light.png?v=1a2e5956"
+      "src": "static/videos/tmt-unseen/goba-monitoring-light.mp4?v=885fc816",
+      "poster": "static/images/video-posters/tmt-unseen/goba-monitoring-light.png?v=93a31576"
     }
   },
   "dropvla-unseen": {
@@ -80,8 +80,8 @@ window.TMT_DEMOS = {
       "poster": "static/images/video-posters/tmt-unseen/dropvla-triggered.png"
     },
     "detection": {
-      "src": "static/videos/tmt-unseen/dropvla-monitoring-light.mp4?v=6317da3c",
-      "poster": "static/images/video-posters/tmt-unseen/dropvla-monitoring-light.png?v=6d7b5422"
+      "src": "static/videos/tmt-unseen/dropvla-monitoring-light.mp4?v=252a813f",
+      "poster": "static/images/video-posters/tmt-unseen/dropvla-monitoring-light.png?v=77336dba"
     }
   }
 };
